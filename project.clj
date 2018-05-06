@@ -16,5 +16,5 @@
   :ring {:handler metcolor-api.handler/app}
   :profiles {:dev {:source-paths ["dev/"]
                    :dependencies [[javax.servlet/servlet-api "2.5"]
-                                  [ring/devel "1.6.3"]
+                                  [ring/ring-devel "1.6.3"]
                                   [ring/ring-mock "0.3.0"]]}})
