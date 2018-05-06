@@ -49,7 +49,7 @@ jobs:
       - run:
           name: Deploy metcolor-api to Google App Engine
           command: |
-            gcloud config set project clojure-sample-project
+            gcloud config set project $APP_ENGINE_PROJ_NAME
             gcloud app deploy
       - run:
           name: discarding all changes
