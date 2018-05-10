@@ -7,4 +7,6 @@ pom.xml.asc
 *.jar
 *.class
 /.lein-*
-/.nrepl-port
+.nrepl-port
+.idea
+.DS_Store
