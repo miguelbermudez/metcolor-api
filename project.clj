@@ -6,6 +6,7 @@
                  [org.clojure/java.jdbc "0.7.5"]
                  [org.postgresql/postgresql "42.1.4"]
                  [com.google.cloud.sql/postgres-socket-factory "1.0.8"]
+                 [clojure.jdbc/clojure.jdbc-c3p0 "0.3.3"]
                  [org.danielsz/system "0.4.1"]
                  [com.layerware/hugsql "0.4.8"]
                  [environ "1.1.0"]
